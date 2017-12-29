@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/gts3llte/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/samsung/gts3llte/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/samsung/gts3llte/proprietary/bin/pm-proxy:system/bin/pm-proxy \
+    vendor/samsung/gts3llte/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/gts3llte/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/gts3llte/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/gts3llte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -33,10 +35,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3llte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/samsung/gts3llte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/gts3llte/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/samsung/gts3llte/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
